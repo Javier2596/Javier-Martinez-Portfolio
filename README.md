@@ -14,13 +14,11 @@ When navigating the portfolio the user can see the nav bar on the top right hand
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
+Avataaars Generator https://getavataaars.com/?accessoriesType=Prescription02&avatarStyle=Circle&clotheColor=Black&clotheType=ShirtCrewNeck&eyeType=Happy&eyebrowType=DefaultNatural&facialHairType=Blank&hairColor=Black&mouthType=Smile&skinColor=Light&topType=ShortHairShortCurly
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
 
-If you followed tutorials, include links to those here as well.
 
 ## License
 
-
+Please refer to the license in the Repository.
 
