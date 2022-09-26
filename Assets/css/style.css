@@ -1,0 +1,123 @@
+* {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration-line: none;
+    color: white;
+} 
+
+
+body { 
+    background: rgb(63, 72, 81);
+}
+
+header {
+    background: rgb(52, 150, 126);
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header-nav {
+    text-align: right;
+    text-decoration: underline;
+    display: inline;
+    margin-top: 1%;
+}
+
+img {
+    width:150px;
+    height: 150px;
+    display: block;
+}
+
+.project-1img {
+    width: 100%;
+    height: 100%;
+}
+
+nav a:hover {
+    color:blue;
+}
+
+.project-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2%;
+}
+
+.project-card {
+    width: 30%;
+    min-height: 200px;
+    margin: 15px;
+    border: 3px solid black;
+}
+
+.project-card div {
+    padding: 15px;
+
+}
+
+.project-card div h3 {
+    text-align: center;
+    height: 30px;
+    margin-top: 0;
+    background:rgb(52, 150, 126);
+    color:white;
+}
+
+.sample-img {
+    background: #fff;
+    width: 70%;
+    padding: 10px;
+    height: 180px;
+    border: 1px solid black;
+    color:black;
+}
+
+#contact-tabs a:hover {
+    color:blue;
+}
+
+@media screen and (max-width: 1140px) {
+    .project-card {
+        width: 45%;
+        justify-content:space-between
+    }
+    
+    header {
+      background: #1a6764;
+    }
+
+    .project-card div h3 {
+        background: #1a6764;
+    }
+  }
+
+@media screen and (max-width: 800px) {
+    .project-card {
+        width: 100%;
+    }
+    
+    header {
+      background: #264948;
+    }
+    
+    .project-card div h3 {
+        background: #264948;
+    }
+  }
+
+
+  
+/*GIVEN I need to sample a potential employee's previous work
+WHEN I load their portfolio
+THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them 
+WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section *check*
+WHEN I click on the link to the section about their work
+THEN the UI scrolls to a section with titled images of the developer's applications "need images titled images of applications"
+WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others "project 1 needs to be larger" Check!
+WHEN I click on the images of the applications 
+THEN I am taken to that deployed application "image for proj.1 needs to be linked to first deployed app" check!
+WHEN I resize the page or view the site on various screens and devices "add media queries properties to css"
+THEN I am presented with a responsive layout that adapts to my viewport*/
