@@ -4,7 +4,6 @@
     color: white;
 } 
 
-
 body { 
     background: rgb(63, 72, 81);
 }
@@ -63,8 +62,8 @@ nav a:hover {
     background:rgb(52, 150, 126);
     color:white;
 }
-
-.sample-img {
+/*used image place holder for the porject tabs without projects */
+.placeholder-img {
     background: #fff;
     width: 70%;
     padding: 10px;
@@ -72,11 +71,11 @@ nav a:hover {
     border: 1px solid black;
     color:black;
 }
-
+/*added color change to links when hovered over*/
 #contact-tabs a:hover {
     color:blue;
 }
-
+/*added queries to make the webpage adjust with screen size*/
 @media screen and (max-width: 1140px) {
     .project-card {
         width: 45%;
@@ -105,19 +104,3 @@ nav a:hover {
         background: #264948;
     }
   }
-
-
-  
-/*GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them 
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section *check*
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications "need images titled images of applications"
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others "project 1 needs to be larger" Check!
-WHEN I click on the images of the applications 
-THEN I am taken to that deployed application "image for proj.1 needs to be linked to first deployed app" check!
-WHEN I resize the page or view the site on various screens and devices "add media queries properties to css"
-THEN I am presented with a responsive layout that adapts to my viewport*/
