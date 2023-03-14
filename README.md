@@ -16,9 +16,9 @@ When navigating the portfolio the user can see the nav bar on the top right hand
 
 Avataaars Generator https://getavataaars.com/?accessoriesType=Prescription02&avatarStyle=Circle&clotheColor=Black&clotheType=ShirtCrewNeck&eyeType=Happy&eyebrowType=DefaultNatural&facialHairType=Blank&hairColor=Black&mouthType=Smile&skinColor=Light&topType=ShortHairShortCurly
 
-
+giphy.com https://giphy.com/gifs/ravens-masters-stealth-123eVQmyCumGL6
 
 ## License
 
-Please refer to the license in the Repository.
+MIT License.
 
