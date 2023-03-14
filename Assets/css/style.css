@@ -5,27 +5,38 @@
 } 
 
 body { 
-    background: rgb(63, 72, 81);
+    background: rgba(20, 160, 136, 0.863);
 }
 
 header {
-    background: rgb(52, 150, 126);
+    background: rgb(8, 107, 99);
     display: flex;
     justify-content: space-between;
-    
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-.header-nav {
+section {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+nav {
     text-align: right;
     text-decoration: underline;
     display: inline;
     margin-top: 1%;
+    text-decoration: none;
 }
 
 img {
     width:150px;
     height: 150px;
     display: block;
+}
+
+ul {
+  list-style-type: none;
 }
 
 .project-1img {
@@ -48,6 +59,7 @@ nav a:hover {
     min-height: 200px;
     margin: 15px;
     border: 3px solid black;
+    border-radius:5%;
 }
 
 .project-card div {
@@ -59,8 +71,9 @@ nav a:hover {
     text-align: center;
     height: 30px;
     margin-top: 0;
-    background:rgb(52, 150, 126);
+    background:rgb(8, 107, 99);
     color:white;
+    border-radius: 3%;
 }
 /*used image place holder for the porject tabs without projects */
 .placeholder-img {
@@ -74,6 +87,7 @@ nav a:hover {
 /*added color change to links when hovered over*/
 #contact-tabs a:hover {
     color:blue;
+    display: inline-block;
 }
 /*added queries to make the webpage adjust with screen size*/
 @media screen and (max-width: 1140px) {
