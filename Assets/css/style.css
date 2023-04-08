@@ -5,7 +5,7 @@
 } 
 
 body { 
-    background: rgba(20, 160, 136, 0.863);
+    background: linear-gradient(315deg, rgba(109, 224, 205, 0.863), rgb(8, 107, 99));
 }
 
 header {
@@ -14,6 +14,7 @@ header {
     justify-content: space-between;
     padding-left: 10px;
     padding-right: 10px;
+    border-radius: 10px 10px;
 }
 
 section {
@@ -62,7 +63,7 @@ nav a:hover {
     width: 30%;
     min-height: 200px;
     margin: 15px;
-    border: 3px solid black;
+    border: 3px solid rgb(8, 107, 99);
     border-radius:5%;
 }
 
@@ -77,7 +78,7 @@ nav a:hover {
     margin-top: 0;
     background:rgb(8, 107, 99);
     color:white;
-    border-radius: 3%;
+    border-radius: 10px 10px;
 }
 /*used image place holder for the porject tabs without projects */
 .placeholder-img {
