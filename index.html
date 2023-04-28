@@ -10,7 +10,7 @@
 <body>
     <!--header w/ nav bar-->
    <header>
-        <h1>Javier Martinez <img src="./Assets/css/images/avataaars.png" alt="Profile image"/></h1>
+        <h1>Javier Martinez <img id="avatar" src="./Assets/css/images/propic.png" alt="Profile image"/></h1>
           <nav>
               <p>
                 <a href="#About-Me">About Me</a>
@@ -21,44 +21,34 @@
           </nav>
    </header>
    <!--Hero with subtitle-->
-   <section class="hero">
-        <h2>Hero</h2>
+   <section>
+      <img id="hero" src=""></img>          
    </section>
    <!--about me section-->
    <main>
     
-    <section id="About-Me">
+    <section class="sections">
         <h2>About Me</h2>    
         <p>My name is Javier Martinez. I was born and raised in Tucson, AZ. 
-            I like to game, I enjoy sci-fi and fantasy novels and films, like to tinker with things, fix problems, paint, and spend 
+            I like to game, I enjoy sci-fi and fantasy novels and films, like to tinker with things, fix problems, paint, and spending 
             time with family. My priorities are school, work, being a good father, and living life to the fullest.
             I graduated from the University of Arizona with a degree in Criminal Justice Studies, I worked for 
             Pima county Superior Court as a Juvenile Detention Officer for almost a year. I then was promoted to an adult Probation Officer. 
             I realized that this field was not for me and decided to make a change for the better. I am now studying web development and I have to say it was the best choice I've ever made.
-            I may seem like the quiet type when I first meet someone, in reality I am a very social person. I love to hear other peoples point of view, helping people when I can and giving them my perspective in a respectful way that benefits the situation. 
             One of the biggest take aways from finishing the coding bootcamp with the University of Arizona is that there is nothing wrong with asking for help when you do not understand something. I have learned a lot in the bootcamp and though I may not fully understand how to do everything in fullstack web development I know that I will do everything I can to solve the problem and that includes asking for help. 
-             </p>
+        </p>
     </section>    
     <!--work section w/ display cards-->
-    <section id="Work">
-        <h2>Projects</h2>
+    <section class="sections">
+        <h2>Portfolio</h2>
     </section>
     
     <section class="project-section">
-        <div class="project-card">
-            <a href="https://javier2596.github.io/git-challenge-1/">
-                <div>
-                    <h3>Project 1</h3> 
-                    <img src="./Assets/css/images/proj1-screenshot.png" class="project-1img"/>
-                    <p>Revising HTML and CSS for a website.</p>
-                </div>
-            </a>  
-        </div>
-        <div class="project-card">
+        <div class="project-card" id="first-proj">
             <a href="https://mayamckinney.github.io/tumblr-marvel/">
                 <div>
-                    <h3>Project 2</h3> 
-                    <img src="./Assets/css/images/PokeProj.png" class="placeholder-img"></img>
+                    <h3>Project 1</h3> 
+                    <img src="./Assets/css/images/PokeProj.png" class="placeholder-img"></img>          
                     <p>Front-End Web Application Project</p>
                 </div>
             </a>  
@@ -66,7 +56,7 @@
         <div class="project-card">
             <a href="https://intentional-health.herokuapp.com/">
                 <div>
-                    <h3>Project 3</h3> 
+                    <h3>Project 2</h3> 
                     <img src="./Assets/css/images/IntentionalHealth.png" class="placeholder-img"></img>
                     <p>Fullstack Web Application Project</p>
                 </div>
@@ -75,7 +65,7 @@
         <div class="project-card">
             <a href="https://shielded-dawn-35002.herokuapp.com/">
                 <div>
-                    <h3>Project 4</h3> 
+                    <h3>Project 3</h3> 
                     <img src="./Assets/css/images/Budget-Buddy.png" class="placeholder-img"></img>
                     <p>Mern-Stack Web Application Project</p>
                 </div>
@@ -84,7 +74,7 @@
         <div class="project-card">
             <a href="#">
                 <div>
-                    <h3>Project 5</h3> 
+                    <h3>Project 4</h3> 
                     <div class="placeholder-img">Image</div>
                     <p>Project description.</p>
                 </div>
@@ -92,7 +82,7 @@
         </div>
     </section>
     <!--contact me section-->
-    <section id="Contact-Me">
+    <section class="sections" id="Contact-Me">
         <h2>Contact Me</h2>
         <div id="contact-tabs">
           <ul>  
@@ -104,7 +94,7 @@
           </ul>  
         </div>
     </section>
-    <section id="Resume">
+    <section class="sections" id="Resume">
         <h2>Resume</h2>
         <div>
             <a href="#">My Resume</a>
