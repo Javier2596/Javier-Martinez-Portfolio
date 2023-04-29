@@ -8,6 +8,11 @@ body {
     background: linear-gradient(315deg, rgba(1, 9, 8, 0.863), rgb(59, 72, 71));
 }
 
+aside{
+  display:block;
+  
+}
+
 header {
     
     display: flex;
@@ -33,13 +38,13 @@ h3 {
   padding-top: 5px;
 }
 
+nav a:hover {
+    color:blue;
+}
+
 .project-1img {
     width: 100%;
     height: 100%;
-}
-
-nav a:hover {
-    color:blue;
 }
 
 .project-section {
@@ -91,10 +96,8 @@ nav a:hover {
 }
 
 #avatar {
-  width:150px;
-  height: 150px;
-  display: block;
-  border-radius:25%;
+  width: 25%;
+  height: 25%;
 }
 
 #first-proj {
@@ -102,10 +105,20 @@ nav a:hover {
 }
 
 #hero {  
-  display:flex;
   width: 100%;
-  height:100%;
+  height: 100%;
 }
+
+#meSec{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between
+}
+
+/*#summary {
+  display:inline;
+  justify-content:right;
+}*/
 /*added queries to make the webpage adjust with screen size*/
 @media screen and (max-width: 1140px) {
     .project-card {
