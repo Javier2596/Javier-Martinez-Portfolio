@@ -42,11 +42,6 @@ nav a:hover {
     color:blue;
 }
 
-.project-1img {
-    width: 100%;
-    height: 100%;
-}
-
 .project-section {
     display: flex;
     flex-wrap: wrap;
@@ -57,22 +52,29 @@ nav a:hover {
     width: 30%;
     min-height: 200px;
     margin: 15px;
-    border: 3px solid rgb(8, 107, 99);
-    border-radius:5%;
+    border: 3px solid rgb(62, 78, 77);
 }
 
 .project-card div {
-    padding: 15px;
+    padding: 10px;
 
 }
 
 .project-card div h3 {
-    text-align: center;
-    height: 30px;
-    margin-top: 0;
-    background:rgb(8, 107, 99);
-    color:white;
-    border-radius: 10px 10px;
+  text-align: center;
+  height: 30px;
+  width: 100%;
+  margin-top: 0;
+  color:white;  
+}
+
+.project-card div p {
+  text-align: center;
+}
+
+.project-card div img {
+  width: 99%;
+  justify-content: center;
 }
 /*used image place holder for the porject tabs without projects */
 .placeholder-img {
@@ -102,6 +104,27 @@ nav a:hover {
 
 #first-proj {
   display: flex;
+  width: 100%;
+  min-height: 200px;
+  margin: 15px;
+  border: 3px solid rgb(62, 78, 77);
+  padding: 15px;
+}
+
+#first-proj img {
+  width: 99%;
+  justify-content: center;
+}
+
+#first-proj h3 {
+  text-align: center;
+  height: 30px;
+  margin-top: 0;
+  color:white; 
+}
+
+#first-proj p {
+  text-align:center;
 }
 
 #hero {  
