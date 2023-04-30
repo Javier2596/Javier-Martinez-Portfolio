@@ -96,8 +96,8 @@ nav a:hover {
 }
 
 #avatar {
-  width: 25%;
-  height: 25%;
+  width: 20%;
+  height: 20%;
 }
 
 #first-proj {
@@ -111,14 +111,14 @@ nav a:hover {
 
 #meSec{
   display: flex;
-  flex-direction:row;
-  justify-content: space-between
+  flex-wrap: wrap;
 }
 
-/*#summary {
-  display:inline;
-  justify-content:right;
-}*/
+#summary {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+}
 /*added queries to make the webpage adjust with screen size*/
 @media screen and (max-width: 1140px) {
     .project-card {
