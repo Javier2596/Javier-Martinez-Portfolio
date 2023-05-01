@@ -74,7 +74,7 @@ nav a:hover {
 /*used image place holder for the porject tabs without projects */
 .placeholder-img {
     background: #fff;
-    width: 70%;
+    width: 95%;
     padding: 1px;
     height: 180px;
     border-radius: 1px;
@@ -97,8 +97,7 @@ nav a:hover {
 
 #first-proj {
   display: flex;
-  width: 100%;
-  min-height: 100px;
+  width: 95%;
   margin: 15px;
   border: 3px solid rgb(62, 78, 77);
   padding: 15px;
@@ -106,7 +105,9 @@ nav a:hover {
 
 #first-proj img {
   width: 100%;
+  height: 90%;
   justify-content: center;
+
 }
 
 #first-proj h3 {
@@ -122,7 +123,7 @@ nav a:hover {
 
 #hero {  
   width: 100%;
-  height: 100%;
+  height: 400px;
 }
 
 #meSec{
@@ -140,14 +141,14 @@ nav a:hover {
   justify-content: right;
 }
 /*added queries to make the webpage adjust with screen size*/
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1450px) {
     .project-card {
         width: 45%;
         justify-content:space-between
     }
   }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 948px) {
     .project-card {
         width: 100%;
     }
