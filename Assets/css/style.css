@@ -27,11 +27,11 @@ main {
 }
 
 nav {
-    text-align: right;
-    text-decoration: underline;
-    display: inline;
-    margin-top: 1%;
-    text-decoration: none;
+  text-align: right;
+  text-decoration: underline;
+  display: inline;
+  margin-top: 1%;
+  text-decoration: none;
 }
 
 ul {
@@ -43,26 +43,30 @@ h3 {
 }
 
 nav a:hover {
-    color:blue;
+  color:blue;
 }
 
 .project-section {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2%;
+  text-align:center;
 }
 
 .project-card {
-    width: 30%;
-    min-height: 200px;
-    margin: 20px;
-    border: 2px solid rgb(62, 78, 77);
-    justify-content: center;
+  width: 30%;
+  min-height: 200px;
+  margin: 20px;
+  border: 2px solid rgb(62, 78, 77);
 }
 
 .project-card div {
-    padding: 10px;
+  padding: 10px;
 
+}
+
+.project-card a:hover {
+  color: blue;
 }
 
 .project-card div h3 {
@@ -73,13 +77,12 @@ nav a:hover {
   margin-top: 0;  
 }
 
-.project-card div p {
-  text-align: center;
+.project-card div h3:hover {
+  color: blue;
 }
 
 .project-card div img {
   width: 100%;
-  justify-content: center;
 }
 /*used image place holder for the porject tabs without projects */
 .placeholder-img {
@@ -88,8 +91,7 @@ nav a:hover {
     text-align: center;
     width: 95%;
     padding: 1px;
-    height: 180px;
-    border-radius: 1px;
+    height: 255px;
 }
 
 /*added color change to links when hovered over*/
@@ -111,8 +113,6 @@ nav a:hover {
   padding: 15px;
   justify-content: center;
   border: 2px solid rgb(62, 78, 77);
-  margin: 15px;
-  padding: 15px;
 }
 
 #first-proj img {
@@ -127,48 +127,29 @@ nav a:hover {
   margin-top: 0; 
 }
 
+#first-proj h3:hover {
+  color:blue;
+}
+
+#first-proj a:hover {
+  color:blue;
+}
+
 #first-proj p {
   text-align:center;
 }
 
 #hero {  
   display: flex;
-  flex-direction: column;
-  justify-content:flex-start;
-  align-items:start;
-  padding: 0px;
   width: 100%;
-  height: 1024px;
-
+  height: 850px;
   background: #303946;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-#hero h3 {
-  font-size: xx-large;
-  color: white;
-  margin-top:0%;
-  margin-left:0%;
-}
-
-#hero ul {
-  margin-left:18%;
-}
-#hero ul li {
-  color: white;
-  font-size:x-large;
-}
 #imageH {
   width: 100%;
   height: 100%
-}
-
-#meSec{
-  box-sizing:border-box;
-  display:flex;
-  flex-direction: row;
-  justify-content: space-between;
-
 }
 
 #photoP {
@@ -182,11 +163,10 @@ nav a:hover {
   width: 60%; 
   justify-content: center;
   line-height: 200%;
-
 }
 
 #Resume {
-  padding: 15px;
+  padding-left: 40px;
 }
 
 /*added queries to make the webpage adjust with screen size*/
